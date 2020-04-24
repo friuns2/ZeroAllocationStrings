@@ -1,4 +1,4 @@
-# ZeroAllocationStrings
+# Zero Allocation Strings
 
 ```csharp
 for(int i=0;i<1000;i++) 
