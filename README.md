@@ -1,0 +1,2 @@
+# ZeroAllocationStrings
+Zero Allocation Strings
