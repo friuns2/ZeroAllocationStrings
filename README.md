@@ -1,7 +1,6 @@
 # ZeroAllocationStrings
 Zero Allocation Strings
 
-example of use 
 
 ```csharp
 for(int i=0;i<1000;i++) 
