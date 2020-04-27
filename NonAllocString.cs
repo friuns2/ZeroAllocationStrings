@@ -64,7 +64,7 @@ public class NonAllocString
     }
     public override string ToString()
     {
-        return anyValues.Count.ToString();
+        return Dispose();
     }
     public static implicit operator string(NonAllocString c)
     {
