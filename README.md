@@ -9,7 +9,7 @@ for(int i=0;i<1000;i++)
 
 by adding NonAllocString.instance prefix, string will be cached, so it will be allocated only 1 time
 
-Did some optimization and now its even better than https://github.com/Cysharp/ZString
+Did some optimization and now its even faster than https://github.com/Cysharp/ZString
 
 ```c#
     public void Update()
@@ -34,13 +34,13 @@ Did some optimization and now its even better than https://github.com/Cysharp/ZS
                 var str = sb.ToString();
                 sb.Clear();
             }
-        
+
         using (bs.Profile("NonAllocString"))
         for(int i=0;i<1000;i++) 
         {
             string newZeroGcString = NonAllocString.instance + "foo" +i + i;
         }
-        
+
     }
 ```
 
