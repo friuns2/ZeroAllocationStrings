@@ -9,7 +9,7 @@ for(int i=0;i<1000;i++)
 
 by adding NonAllocString.instance prefix, string will be cached, so it will be allocated only 1 time
 
-Did some optimization and now its even faster than https://github.com/Cysharp/ZString
+UPDATE! Did some optimization and now its even faster than https://github.com/Cysharp/ZString
 
 ```c#
     public void Update()
